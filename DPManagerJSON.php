@@ -175,7 +175,7 @@ class DPManagerJSON extends UnicodeUtf8Replace {
         return $lstJson;
     }
 
-    public static function buildSingleJFieldsonTo($parModelo) {
+    public static function buildSingleFieldJsonTo($parModelo) {
 
         $lstJson = 'CONCAT("[",';
 
